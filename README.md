@@ -1,1 +1,1 @@
-# AWS-Database-Analyrics-DAY
+# AWS-Database-Analytics-DAY
