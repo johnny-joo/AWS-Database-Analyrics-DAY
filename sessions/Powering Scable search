@@ -1,0 +1,38 @@
+# Powering Scalable Search with PostgreSQL and Semantic Technologies
+
+## 🔍 Search Evolution
+Traditional keyword-based search is evolving into semantic search, which understands user intent and context.
+
+## 🧠 Use Cases
+- Sentiment analysis from customer reviews
+- Spending insights from transaction descriptions
+- Scalable search across billions of records
+
+## 🗄️ PostgreSQL Search Techniques
+- **B-tree Index**: Prefix search
+- **Trigram Search**: Partial match using `pg_trgm`
+- **GIN Index**: Efficient for full-text and trigram search
+- **TSVector & TSQuery**: Full-text search with stemming and ranking
+
+## 🧬 Semantic Search with Vector DB
+- Embedding models convert text to vectors
+- PGVector stores and compares vectorized data
+- Enables similarity search and personalized recommendations
+
+---
+
+### 검색 기술의 진화
+키워드 기반 검색에서 의미 기반 검색으로의 전환
+
+### 활용 사례
+- 고객 리뷰 감성 분석
+- 거래 설명 기반 소비 분석
+- 대규모 데이터의 빠른 검색
+
+### PostgreSQL 검색 기능
+- B-tree, Trigram, GIN 인덱스
+- TSVector & TSQuery를 활용한 전체 텍스트 검색
+
+### 벡터 DB 기반 시맨틱 검색
+- 텍스트 임베딩 → 벡터화
+- PGVector로 유사도 검색 구현
